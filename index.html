@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f8ff">
+    <meta name="description" content="Marwan Gomaa is a Computer Science student and Full Stack .NET developer in training.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Marwan Gomaa | Full Stack .NET Developer</title>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Marwan Gomaa home">&lt;MG<span>/&gt;</span></a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+                <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+            </button>
+            <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" title="Open navigation">
+                <span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-portrait" aria-label="Portrait of Marwan Gomaa">
+                <div class="portrait-frame">
+                    <div class="portrait-fallback" aria-hidden="true">MG</div>
+                    <img src="profile.jpg" alt="Marwan Gomaa" class="portrait" onerror="this.hidden=true">
+                </div>
+            </div>
+            <div class="hero-copy">
+                <p class="hello">Hi, I'm</p>
+                <h1>Marwan <span>Gomaa</span></h1>
+                <p class="role">I'm a <span>Full Stack .NET Developer</span></p>
+                <p class="hero-description">Computer Science student at Zagazig University focused on Full Stack .NET, building skills in C#, ASP.NET, and database-driven web applications.</p>
+                <div class="hero-actions">
+                    <button class="button button-primary" id="download-cv" type="button">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4"></path></svg>
+                        Download CV
+                    </button>
+                    <a class="button button-outline" href="#contact">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="m4 7 8 6 8-6"></path></svg>
+                        Contact Me
+                    </a>
+                </div>
+                <div class="social-links" aria-label="Contact links">
+                    <a class="social-link" href="mailto:marwangomaa.cs@gmail.com" aria-label="Email Marwan" title="Email">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="m4 7 8 6 8-6"></path></svg>
+                    </a>
+                    <a class="social-link" href="tel:01208874200" aria-label="Call Marwan" title="Call">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 3a14 14 0 0 1-6-6l3-2-2-5Z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section about-section" id="about">
+            <div class="section-heading">
+                <p class="section-kicker">A little about me</p>
+                <h2>Curious by nature.<br><span>Developer in progress.</span></h2>
+            </div>
+            <div class="about-copy">
+                <p>I'm a Computer Science student at Zagazig University with a strong foundation in C#, C++, SQL, and web development. I'm focused on Full Stack .NET and keep growing through hands-on training, academic projects, and plenty of problem-solving.</p>
+                <div class="about-facts">
+                    <div><span class="fact-number">2028</span><span class="fact-label">Expected graduation</span></div>
+                    <div><span class="fact-number">.NET</span><span class="fact-label">Focus area</span></div>
+                    <div><span class="fact-number">DEPI</span><span class="fact-label">Trainee</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section education-section" id="education">
+            <div class="section-heading compact-heading">
+                <p class="section-kicker">Where I'm studying</p>
+                <h2>Education</h2>
+            </div>
+            <div class="education-detail">
+                <div><h3>Zagazig University</h3><p>Faculty of Science · B.Sc. in Computer Science</p></div>
+                <div class="education-location"><span>Zagazig, Egypt</span><strong>Expected 2028</strong></div>
+            </div>
+        </section>
+
+        <section class="content-section experience-section" id="experience">
+            <div class="section-heading compact-heading">
+                <p class="section-kicker">Learning in practice</p>
+                <h2>Experience</h2>
+            </div>
+            <div class="experience-list">
+                <article class="experience-item">
+                    <div class="timeline-marker"></div>
+                    <div class="experience-meta"><span>2026 — Present</span><span class="experience-type">Training</span></div>
+                    <h3>Full Stack .NET Trainee</h3>
+                    <p class="organization">Digital Egypt Pioneers Initiative <span>(DEPI)</span></p>
+                    <p>Hands-on training in C#, ASP.NET MVC, ASP.NET Web API, Entity Framework Core, and SQL Server. Applying OOP, database concepts, and problem-solving through practical tasks and projects.</p>
+                </article>
+                <article class="experience-item">
+                    <div class="timeline-marker"></div>
+                    <div class="experience-meta"><span>2025 — Present</span><span class="experience-type">Independent learning</span></div>
+                    <h3>Self-Learning &amp; Academic Training</h3>
+                    <p class="organization">Programming foundations</p>
+                    <p>Developed practical knowledge of C#, C++, SQL, HTML, CSS, and JavaScript. Practiced building web applications, working with relational databases, and applying programming concepts through coding exercises and academic projects.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section skills-section" id="skills">
+            <div class="section-heading compact-heading">
+                <p class="section-kicker">Tools I work with</p>
+                <h2>Technical skills</h2>
+            </div>
+            <div class="skill-groups">
+                <article class="skill-group"><span class="skill-index">01</span><h3>Frontend</h3><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+                <article class="skill-group"><span class="skill-index">02</span><h3>Programming</h3><div class="skill-tags"><span>C#</span><span>C++</span><span>OOP</span></div></article>
+                <article class="skill-group"><span class="skill-index">03</span><h3>Backend &amp; frameworks</h3><div class="skill-tags"><span>ASP.NET MVC</span><span>ASP.NET Web API</span><span>Entity Framework Core</span></div></article>
+                <article class="skill-group"><span class="skill-index">04</span><h3>Database &amp; core</h3><div class="skill-tags"><span>SQL</span><span>SQL Server</span><span>Data Structures</span><span>Problem Solving</span></div></article>
+            </div>
+        </section>
+
+        <section class="content-section contact-section" id="contact">
+            <div class="section-heading compact-heading">
+                <p class="section-kicker">Contact</p>
+                <h2>Let's connect</h2>
+            </div>
+            <div class="contact-actions">
+                <a class="button button-outline" href="mailto:marwangomaa.cs@gmail.com">marwangomaa.cs@gmail.com</a>
+                <a class="button button-outline" href="tel:01208874200">01208874200</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#home">&lt;MG<span>/&gt;</span></a>
+        <p>Made with curiosity in Zagazig, Egypt.</p>
+        <a href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
